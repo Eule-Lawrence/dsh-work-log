@@ -1,0 +1,10 @@
+# dsh-work-log — 把每次对话自动整理成工作记录
+# 结构：<root>/<工作区>/<对话标题>.json，每个对话一个文件，记录按轮次追加。
+# root 也可以在「插件 → 工作记录」页面里改，界面写过的值优先于这里。
+- insert:
+    - id: work-log
+      name: 'dsh-work-log'
+      config:
+        root: 'E:\DSH-WorkLogs'
+        enabled: true
+        summarize: true

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Work Log",
+    "description": "After every turn, condenses the request and the actual result into one numbered record, stored as JSON per workspace and conversation so another bot can reuse it as context."
+  }
+}
